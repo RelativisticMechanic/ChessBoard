@@ -4,6 +4,7 @@
 
 class myApp : public olc::PixelGameEngine
 {
+public:
 	ChessBoard myboard;
 	MoveStack myboard_movestack = MoveStack(10);
 	bool has_selected_piece = false;
